@@ -22,7 +22,7 @@
 	};
 
 	// Click outside of offcanvass
-/* 	var mobileMenuOutsideClick = function() {
+	var mobileMenuOutsideClick = function() {
 		$(document).click(function (e) {
 	    var container = $("#fh5co-offcanvass, .js-fh5co-menu-btn");
 	    if (!container.is(e.target) && container.has(e.target).length === 0) {
@@ -39,7 +39,7 @@
 		    	}
 	    	}
 		});
-	}; */
+	};
 
 	// Magnific Popup
 	
