@@ -786,6 +786,7 @@ and (max-width : 480px) {
     border-color: #000;
     margin: 10px 15px;
     padding: 0 0 2px 0;
+	float: right;
 	
 /*   position: absolute;
   right: 20px;

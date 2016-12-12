@@ -14,17 +14,17 @@ $(function() {
 });
 
   // hide #back-top first
-/*   $("#back-top").hide(); */
+  $("#back-top").hide();
 
   // fade in #back-top
 
-/*   $(window).scroll(function () {
+  $(window).scroll(function () {
   	if ($(this).scrollTop() > 100) {
   		$('#back-top').fadeIn();
-  	} else {
+  	} /* else {
   		$('#back-top').fadeOut();
-  	}
-  }); */
+  	} */
+  });
 
   // scroll body to 0px on click
 /*   $('#back-top a').on("click", function(){
