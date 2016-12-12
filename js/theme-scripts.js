@@ -14,7 +14,7 @@ $(function() {
 });
 
   // hide #back-top first
-  $("#back-top").hide();
+/*   $("#back-top").hide(); */
 
   // fade in #back-top
 
