@@ -18,6 +18,7 @@
 	var offCanvass = function() {
 		$('body').on('click', '.js-fh5co-menu-btn, .js-fh5co-offcanvass-close', function(){
 			$('#fh5co-offcanvass').toggleClass('fh5co-awake');
+			$('#back-top').fadeToggle();
 		});
 	};
 
