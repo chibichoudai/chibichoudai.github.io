@@ -645,22 +645,22 @@ font-size: 11px;
     right: 50px;
 }
 #back-top a {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     display: block;
     text-align: center;
     font: 11px/100% Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     text-decoration: none;
-    color: #FFFFFF;
-    background: #A9A9B1;
+    color: #000000;
+    background: #fed136;
     /* background color transition */
     -webkit-transition: 1s;
     -moz-transition: 1s;
     transition: 1s;
 }
 #back-top a:hover {
-    background: #fed136;
+    background: #CCA82B;
 }
 /* arrow icon (span tag) */
 #back-top i {
@@ -831,6 +831,15 @@ and (max-width : 480px) {
   letter-spacing: 1px;
   text-transform: uppercase;
   float: right;
+  margin-top: 16px;
+  font-family: "Montserrat", arial, sans-serif;
+  color: #444;
+}
+.fh5co-menu-btn-alt {
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  float: center;
   margin-top: 16px;
   font-family: "Montserrat", arial, sans-serif;
   color: #444;
