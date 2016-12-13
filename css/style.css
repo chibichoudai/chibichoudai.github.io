@@ -828,13 +828,7 @@ and (max-width : 480px) {
 }
 
 .fh5co-menu-btn {
-  font-size: 15px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  float: right;
-  margin-top: 16px;
-  font-family: "Montserrat", arial, sans-serif;
-  color: #444;
+
 }
 .fh5co-menu-btn-alt {
   font-size: 15px;
