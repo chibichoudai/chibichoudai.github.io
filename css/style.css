@@ -74,6 +74,10 @@ iframe {
 	border: none;
     overflow: scroll;
 }
+
+.frame {
+	height: 100vh;
+}
 /*--------------------
 1.1 Reset bootstrap
 --------------------*/
@@ -97,6 +101,7 @@ iframe {
 	border-color: transparent
 }
 .navbar-default img {
+	margin-top: 10px;
 	height: 25px;
 }
 .navbar-default .navbar-brand {
