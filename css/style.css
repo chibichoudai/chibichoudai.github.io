@@ -66,12 +66,13 @@ section {
 	padding: 35px 0 60px;
 }
 
+
+
 iframe {
 	margin: 0;
 	padding: 0;
 	border: none;
     overflow: scroll;
-	-webkit-overflow-scrolling: touch
 }
 /*--------------------
 1.1 Reset bootstrap
@@ -94,6 +95,9 @@ iframe {
 .navbar-default {
 	background-color: #F1F1F1;
 	border-color: transparent
+}
+.navbar-default img {
+	height: 25px;
 }
 .navbar-default .navbar-brand {
 	color: #fff;
@@ -152,6 +156,9 @@ iframe {
 		-moz-transition:padding .3s;
 		transition:padding .3s;
 		border:0
+	}
+	.navbar-default img {
+		height: 50px;
 	}
 	.navbar-default .navbar-brand {
 		font-size: 2em;
@@ -731,15 +738,15 @@ and (max-width : 480px) {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  -webkit-transform: translateX(320px);
-  -moz-transform: translateX(320px);
-  -ms-transform: translateX(320px);
-  -o-transform: translateX(320px);
-  transform: translateX(320px);
+  -webkit-transform: translateX(350px);
+  -moz-transform: translateX(350px);
+  -ms-transform: translateX(350px);
+  -o-transform: translateX(350px);
+  transform: translateX(350px);
   bottom: 0;
-  width: 300px;
-  padding: 40px 30px;
-  background: #000;
+  width: 330px;
+  padding: 40px 0px;
+  background: #fff;
   -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
   -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
