@@ -685,8 +685,8 @@ and (max-width : 480px) {
     right: 30px;
 }
 #back-top a {
-    width: 55px;
-    height: 55px;
+    width: 40px;
+    height: 40px;
 	font: 8px/100% Arial, Helvetica, sans-serif;
 }
 #back-top i {
