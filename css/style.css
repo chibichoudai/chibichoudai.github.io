@@ -649,8 +649,8 @@ font-size: 11px;
     right: 50px;
 }
 #back-top a {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     display: block;
     text-align: center;
     font: 11px/100% Arial, Helvetica, sans-serif;
@@ -658,6 +658,7 @@ font-size: 11px;
     text-decoration: none;
     color: #000000;
     background: #fed136;
+	line-height: 1.75;
     /* background color transition */
     -webkit-transition: 1s;
     -moz-transition: 1s;
