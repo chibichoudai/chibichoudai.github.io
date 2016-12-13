@@ -739,7 +739,7 @@ and (max-width : 480px) {
   bottom: 0;
   width: 300px;
   padding: 40px 30px;
-  background: #fff;
+  background: #000;
   -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
   -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
