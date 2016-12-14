@@ -205,8 +205,25 @@ iframe {
 	font-size: 18px;
 	font-weight: 300;
 	line-height: 33px;
-	margin: 25px 100px 30px 100px;
+	margin: 25px 0px 30px 0px;
 	float: center;
+}
+
+.fa-envelope {
+    color: #808080;
+	-webkit-transition: color 0.75s;
+}
+.fa-envelope:hover {
+    color: #252525;
+	-webkit-transition: color 0.75s;
+}
+.fa-facebook-official {
+    color: #808080;
+	-webkit-transition: color 0.75s;
+}
+.fa-facebook-official:hover {
+    color: #252525;
+	-webkit-transition: color 0.75s;
 }
 
 .mz-module .section-title {
@@ -266,7 +283,7 @@ font-weight: 700;
 
 .ot-circle-dark {
 	text-align: center;
-	color: #000000;
+	color: #808080;
 	margin: 0px 0;
 	font-size: 37px;
 }
