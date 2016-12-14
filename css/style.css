@@ -17,11 +17,14 @@ Import Google Fonts
 1. General
 --------------------*/
 
+
+
 body {
 	margin: 0px;
 	font-family: "Raleway", Sans-serif;
 	background-color: #FFFFFF;
 }
+
 
 h1,
 h2,
@@ -756,8 +759,14 @@ and (max-width : 480px) {
   -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
   -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
-  -webkit-overflow-scrolling: touch;
-  
+  -webkit-overflow-scrolling: touch; 
+}
+#fh5co-offcanvass::-webkit-scrollbar {
+    width: 0.2em;
+}
+
+#fh5co-offcanvass::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
 }
 #fh5co-offcanvass .fh5co-lead {
   font-size: 12px;
