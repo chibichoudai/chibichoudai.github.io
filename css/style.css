@@ -206,6 +206,7 @@ iframe {
 	font-weight: 300;
 	line-height: 33px;
 	margin: 25px 100px 30px 100px;
+	float: center;
 }
 
 .mz-module .section-title {
