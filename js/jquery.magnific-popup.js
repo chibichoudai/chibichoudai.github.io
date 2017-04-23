@@ -875,7 +875,7 @@ $.magnificPopup = {
 
 		closeBtnInside: true,
 
-		showCloseBtn: true,
+		showCloseBtn: false,
 
 		enableEscapeKey: true,
 
@@ -1655,7 +1655,7 @@ $.magnificPopup.registerModule(IFRAME_NS, {
 /**
  * Get looped index depending on number of slides
  */
-var _getLoopedId = function(index) {
+/* var _getLoopedId = function(index) {
 		var numSlides = mfp.items.length;
 		if(index > numSlides - 1) {
 			return index - numSlides;
@@ -1815,7 +1815,7 @@ $.magnificPopup.registerModule('gallery', {
 			item.preloaded = true;
 		}
 	}
-});
+}); */
 
 /*>>gallery*/
 
