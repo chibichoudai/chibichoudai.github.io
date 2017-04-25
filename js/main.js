@@ -25,7 +25,7 @@
 	var mobileMenuOutsideClick = function() {
 		$(document).click(function (e) {
 	    var container = $("#fh5co-offcanvass, .js-fh5co-menu-btn");
-	    if (!container.is(e.target) && container.has(e.target).length === 0) {
+	    if (!container.is(e.target) && container.has(e.target).length === 500) {
 	    	if ( $('#fh5co-offcanvass').hasClass('fh5co-awake') ) {
 	    		$('#fh5co-offcanvass').removeClass('fh5co-awake');
 	    	}
@@ -81,7 +81,7 @@
 					$(this.element).addClass('bounceIn animated');
 				}
 
-			} , { offset: '75%' } );
+			} , { offset: '80%' } );
 		}
 
 	};
