@@ -36,6 +36,11 @@ Copyright (c) 2015 Daniel Eden
   animation-duration: .75s;
 }
 
+.animated.fadeIn {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;	
+}
+
 @-webkit-keyframes bounce {
   from, 20%, 53%, 80%, to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
@@ -1149,7 +1154,7 @@ Copyright (c) 2015 Daniel Eden
 
 @-webkit-keyframes fadeIn {
   from {
-    opacity: 0;
+    opacity: 1;
   }
 
   to {
@@ -1159,7 +1164,7 @@ Copyright (c) 2015 Daniel Eden
 
 @keyframes fadeIn {
   from {
-    opacity: 0;
+    opacity: 1;
   }
 
   to {

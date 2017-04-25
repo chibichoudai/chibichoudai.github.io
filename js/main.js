@@ -78,10 +78,10 @@
 			$('.animate-box').waypoint( function( direction ) {
 
 				if( direction === 'down' && !$(this).hasClass('animated') ) {
-					$(this.element).addClass('bounceIn animated');
+					$(this.element).addClass('fadeIn animated');
 				}
 
-			} , { offset: '80%' } );
+			} , { offset: '90%' } );
 		}
 
 	};
