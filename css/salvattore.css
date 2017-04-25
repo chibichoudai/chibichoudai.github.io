@@ -31,6 +31,7 @@
 	margin-left: 37.5%;
 }
 
+/* Board4 */
 #fh5co-board[data-columns]::before {
     content: '4 .column.size-1of4';
 }
@@ -63,7 +64,7 @@
 
 
 
-
+/* Board3 */
 #fh5co-board3[data-columns]::before {
     content: '3 .column.size-1of3';
 }
@@ -92,40 +93,42 @@
     }
 }
 
-#fh5co-board3[data-columns]::before {
-    content: '3 .column.size-1of3';
-}
-
-/* Configurate salvattore with media queries */
-@media screen and (max-width: 450px) {
-    #fh5co-board2[data-columns]::before {
-        content: '1 .column';
-    }
-}
-
-@media screen and (min-width: 451px) and (max-width: 700px) {
-    #fh5co-board2[data-columns]::before {
-        content: '2 .column.size-1of2';
-    }
-}
-
-@media screen and (min-width: 701px) and (max-width: 850px) {
-    #fh5co-board2[data-columns]::before {
-        content: '3 .column.size-1of3';
-    }
-}
-@media screen and (min-width: 851px) {
-    #fh5co-board2[data-columns]::before {
-        content: '3 .column.size-1of3';
-    }
-}
-
-#fh5co-board1[data-columns]::before {
+/* Board2 */
+#fh5co-board2[data-columns]::before {
     content: '2 .column.size-1of2';
 }
 
 /* Configurate salvattore with media queries */
 @media screen and (max-width: 450px) {
+    #fh5co-board2[data-columns]::before {
+        content: '1 .column';
+    }
+}
+
+@media screen and (min-width: 451px) and (max-width: 700px) {
+    #fh5co-board2[data-columns]::before {
+        content: '2 .column.size-1of2';
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 850px) {
+    #fh5co-board2[data-columns]::before {
+        content: '2.column.size-1of2';
+    }
+}
+@media screen and (min-width: 851px) {
+    #fh5co-board2[data-columns]::before {
+        content: '2 .column.size-1of2';
+    }
+}
+
+/* Board1 */
+#fh5co-board1[data-columns]::before {
+    content: '1 .column.size-1of1';
+}
+
+/* Configurate salvattore with media queries */
+@media screen and (max-width: 450px) {
     #fh5co-board1[data-columns]::before {
         content: '1 .column';
     }
@@ -133,13 +136,13 @@
 
 @media screen and (min-width: 451px) and (max-width: 700px) {
     #fh5co-board1[data-columns]::before {
-        content: '2 .column.size-1of2';
+        content: '1 .column.size-1of1';
     }
 }
 
 @media screen and (min-width: 701px) and (max-width: 850px) {
     #fh5co-board1[data-columns]::before {
-        content: '3 .column.size-1of3';
+        content: '1 .column.size-1of1';
     }
 }
 
